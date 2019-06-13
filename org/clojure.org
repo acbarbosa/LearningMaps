@@ -1,0 +1,22 @@
+* CLOJURE
+** Build Tools
+*** Leiningen
+*** Boot
+*** Gradle
+*** Maven
+** Emacs
+Some interesting links on how to configure emacs to work with Clojure:
+- http://clojure-doc.org/articles/tutorials/emacs.html
+*** Clojure-mode
+Interesting links about clojure-mode:
+- https://github.com/clojure-emacs/clojure-mode/blob/master/README.md
+**** FontLock
+**** Indentation
+**** Navigation
+**** Refactoring
+*** CIDER
+CIDER is the Clojure(Script) Interactive Development Environment that Rocks!
+CIDER extends Emacs with support for interactive programming in Clojure. The features are centered around /cider-mode/. While /clojure-mode/ supports editing Clojure source files, /cider-mode/ adds support for *interacting with a running Clojure process for compilation, debugging, definition and documentation lookup, running tests and so on*.
+CIDER's built on top of nREPL, the Clojure networked REPL.
+- https://docs.cider.mx/cider/index.html
+** nREPL
